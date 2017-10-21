@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.ktpsolutions.www.adamscoffeebar.CustActivity">
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Designed by Kaylen Pillay for Neurosolutions" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Adams Coffee Bar"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_newtoadams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm new to adams"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/textView43"
+        android:layout_alignEnd="@+id/btn_cust_return" />
+
+    <Button
+        android:id="@+id/btn_alreadyregisted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="I'm new to the app"
+        android:layout_below="@+id/btn_newtoadams"
+        android:layout_alignStart="@+id/btn_newtoadams" />
+
+    <Button
+        android:id="@+id/btn_cust_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to login"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_alreadyregisted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Only use this if you have registed with Adams, but not the application"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use this if you are completly new to adams"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
